@@ -8,7 +8,7 @@ export class Player {
         this.isMoving = false;
         this.progress = 0;
         this.sprite = new Image();
-        this.sprite.src = './assets/player_sprite.png';
+        this.sprite.src = './assets/characters/player_sprite.png';
         this.frameX = 0;
         this.frameY = 0;
         this.animTimer = 0;
