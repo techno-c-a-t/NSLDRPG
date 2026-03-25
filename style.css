@@ -46,3 +46,44 @@ canvas {
 }
 
 .hidden { display: none !important; }
+
+/* В style.css */
+.joystick-container {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 120px;
+    height: 120px;
+    pointer-events: auto; /* Важно: разрешаем касания */
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+}
+
+#joystick-base {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    position: relative;
+}
+
+#joystick-stick {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transition: transform 0.1s;
+}
+
+/* Класс для скрытия джойстика */
+.joystick-hidden {
+    opacity: 0;
+    pointer-events: none;
+}

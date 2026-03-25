@@ -75,10 +75,32 @@ export class Player {
         }
     }
 
+    getCorners() {
+
+    // 1. Вычисляем текущие координаты коллайдера НОГ игрока в чанках
+    const curX = this.x + (this.targetX - this.x) * this.progress;
+    const curY = this.y + (this.targetY - this.y) * this.progress;
+
+    const pColX = curX + CONFIG.P_COLL_OX;
+    const pColY = curY + CONFIG.P_COLL_OY;
+
+    // 2. Проверяем 4 угла именно этого маленького прямоугольника (ног)
+        return [
+        { x: pColX, y: pColY }, // верх-лево ног
+        { x: pColX + CONFIG.P_COLL_W - 1, y: pColY }, // верх-право ног
+        { x: pColX, y: pColY + CONFIG.P_COLL_H - 1 }, // низ-лево ног
+        { x: pColX + CONFIG.P_COLL_W - 1, y: pColY + CONFIG.P_COLL_H - 1 } // низ-право ног
+    ];
+    }
+
     canMoveTo(nx, ny, world) {
         if (nx < 0 || nx > CONFIG.WORLD_SIZE - CONFIG.PLAYER_W ||
             ny < 0 || ny > CONFIG.WORLD_SIZE - CONFIG.PLAYER_H) return false;
-        return !world.checkCollision(nx, ny, CONFIG.PLAYER_W, CONFIG.PLAYER_H);
+        return !world.checkCollision(
+            nx + CONFIG.P_COLL_OX, 
+            ny + CONFIG.P_COLL_OY, 
+            CONFIG.P_COLL_W,
+            CONFIG.P_COLL_H);
     }
 
     draw(ctx) {

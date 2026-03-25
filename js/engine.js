@@ -3,15 +3,15 @@ export const CONFIG = {
     WORLD_SIZE: 256, // 256 * 8 = 2048px
     VIEW_SIZE: 512,
     PLAYER_W: 5, // в чанках
-    PLAYER_H: 4,  // в чанках
+    PLAYER_H: 8,  // в чанках
     MOVE_SPEED: 0.5,
     SPRITE_W: 748 / 4, // 187px
     SPRITE_H: 1100 / 4, // 275px
     ANIM_SPEED: 0.15,    // Скорость смены кадров
     P_COLL_W: 5,
-    P_COLL_H: 2,  // Только 2 чанка высоты (ноги)
-    P_COLL_OX: 0, // Без смещения по X
-    P_COLL_OY: 6  // Смещение на 6 чанков вниз (8 - 2 = 6)
+    P_COLL_H: 4,  // Только 2 чанка высоты (ноги)
+    P_COLL_OX: 0, // Без смещения по X вправо
+    P_COLL_OY: 4  // Смещение на 6 чанков вниз (8 - 2 = 6)
 };
 
 export class Renderer {

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Наследники: Alpha</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div id="ui-layer">
         <div id="hud">
@@ -14,10 +16,17 @@
         </div>
         <div id="interaction-prompt" class="hidden">Осторожно!!!</div>
         <div id="save-msg" class="hidden">СОХРАНЕНО</div>
+        <!-- Внутри #ui-layer в index.html -->
+        <div id="joystick-zone" class="joystick-container">
+            <div id="joystick-base">
+                <div id="joystick-stick"></div>
+            </div>
+        </div>
     </div>
     <canvas id="gameCanvas"></canvas>
 
     <!-- Запуск игры как модуля -->
     <script type="module" src="js/main.js"></script>
 </body>
+
 </html>
