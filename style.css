@@ -48,42 +48,190 @@ canvas {
 .hidden { display: none !important; }
 
 /* В style.css */
+/* Обновленный размер джойстика (в 1.5 раза больше: 120 * 1.5 = 180) */
 .joystick-container {
     position: absolute;
-    bottom: 50px;
-    right: 50px;
-    width: 120px;
-    height: 120px;
-    pointer-events: auto; /* Важно: разрешаем касания */
+    bottom: 30px;
+    right: 30px;
+    width: 180px;
+    height: 180px;
+    pointer-events: auto;
     z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: opacity 0.3s;
 }
 
 #joystick-base {
-    width: 100px;
-    height: 100px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
-    position: relative;
 }
 
 #joystick-stick {
-    width: 50px;
-    height: 50px;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
     position: absolute;
-    top: 25px;
-    left: 25px;
-    transition: transform 0.1s;
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
 }
 
-/* Класс для скрытия джойстика */
-.joystick-hidden {
-    opacity: 0;
-    pointer-events: none;
+/* Кнопка взаимодействия (ACT) слева */
+.mobile-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 30px; /* Первый край (лево) */
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    pointer-events: auto;
+    z-index: 100;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
+
+.mobile-btn:active {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(0.9);
+}
+
+.hidden { display: none !important; }
+
+#dialogue-box {
+    position: absolute;
+    top: 20px; /* Сверху экрана */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    height: 120px;
+    background: black;
+    border: 4px solid white;
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1000;
+    pointer-events: auto; /* Разрешаем клики */
+}
+
+#dialogue-name {
+    color: #ffff00; /* Желтый для имени, как в RPG */
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#dialogue-text {
+    color: white;
+    font-size: 18px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+    display: inline-block; 
+}
+
+.dialogue-arrow {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: white;
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+
+
+/* Кнопка взаимодействия (ACT) слева */
+.mobile-btn {
+    position: absolute;
+    bottom: 50px;
+    left: 30px; /* Первый край (лево) */
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 3px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    pointer-events: auto;
+    z-index: 100;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-btn:active {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(0.9);
+}
+
+.hidden { display: none !important; }
+
+#intro-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000; /* Выше всего */
+    pointer-events: auto;
+}
+
+.intro-modal {
+    background: black;
+    border: 4px solid white;
+    padding: 30px;
+    width: 85%;
+    max-width: 500px;
+    text-align: center;
+    color: white;
+}
+
+.intro-modal h2 { margin-top: 0; color: #ff00ff; letter-spacing: 2px; }
+
+.intro-content {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.intro-content p { margin: 10px 0 5px; color: #0f0; }
+.intro-content ul { margin: 0; padding-left: 20px; }
+
+.lore-hint { 
+    margin-top: 20px !important; 
+    color: #888 !important; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
+#close-intro-btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-family: monospace;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#close-intro-btn:hover { background: #0f0; }

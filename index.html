@@ -10,16 +10,53 @@
 
 <body>
     <div id="ui-layer">
+        <div id="intro-overlay" class="hidden">
+            <div class="intro-modal">
+                <h2>ИНСТРУКЦИЯ НАСЛЕДНИКА</h2>
+                <div class="intro-content">
+                    <div class="pc-controls">
+                        <p><strong>ПК:</strong></p>
+                        <ul>
+                            <li>WASD / Стрелки — Движение</li>
+                            <li>SHIFT — Бег</li>
+                            <li>ПРОБЕЛ — Взаимодействие</li>
+                            <li>ENTER — Сохранить позицию</li>
+                        </ul>
+                    </div>
+                    <div class="mobile-controls">
+                        <p><strong>МОБИЛКИ:</strong></p>
+                        <ul>
+                            <li>Джойстик — Движение</li>
+                            <li>Дабл-тап по джойстику — Бег</li>
+                            <li>Кнопка ACT — Взаимодействие (когда появляется, можно взаиможействовать)</li>
+                        </ul>
+                    </div>
+                    <p class="lore-hint"><i>"Исследуй зоны влияния, ищи секреты и помни: Нулевой круг следит за
+                            тобой."</i></p>
+                </div>
+                <button id="close-intro-btn">МНЕ ВСЁ ЯСНО</button>
+            </div>
+        </div>
         <div id="hud">
             TOKEN: <span id="token-val"></span><br>
             POS: <span id="pos-val">0, 0</span>
         </div>
-        <div id="interaction-prompt" class="hidden">Осторожно!!!</div>
+        <div id="interaction-prompt" class="hidden">Пробел</div>
         <div id="save-msg" class="hidden">СОХРАНЕНО</div>
         <!-- Внутри #ui-layer в index.html -->
         <div id="joystick-zone" class="joystick-container">
             <div id="joystick-base">
                 <div id="joystick-stick"></div>
+            </div>
+        </div>
+        <div id="mobile-act-button" class="mobile-btn hidden">
+            <span>ACT</span>
+        </div>
+        <div id="dialogue-box" class="hidden">
+            <div class="dialogue-frame">
+                <div id="dialogue-name">КТО-ТО ГОВОРИТ</div>
+                <div id="dialogue-text">Привет, Наследник...</div>
+                <div class="dialogue-arrow">▼</div>
             </div>
         </div>
     </div>

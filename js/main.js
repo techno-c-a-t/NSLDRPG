@@ -1,12 +1,14 @@
 import { World } from './world.js';
 import { Player } from './player.js';
-import { keys } from './input.js';
-import { CONFIG } from './engine.js';
-import { initJoystick } from './joystick.js';
+import { keys, initJoystick, updateUIVisibility } from './input.js';
+import { CONFIG } from './engine.js';;
+import { DialogueManager } from './dialogue.js';
 
 const world = new World();
+const dialogue = new DialogueManager();
 let player;
 let token = '';
+let isPausedByIntro = false;
 
 async function init() {
     await world.loadObjects();
@@ -15,18 +17,46 @@ async function init() {
     if (!urlParams.get('token')) window.history.replaceState({}, '', `?token=${token}`);
 
     const saved = localStorage.getItem('save_' + token);
-    const startPos = saved ? JSON.parse(saved) : { x: 120, y: 120 };
+    const startPos = saved ? JSON.parse(saved) : { x: CONFIG.START_X, y: CONFIG.START_X };
     player = new Player(startPos.x, startPos.y);
     initJoystick(); // Включаем джойстик
+
+    const introSeen = sessionStorage.getItem('intro_seen');
+    const introOverlay = document.getElementById('intro-overlay');
+    const closeBtn = document.getElementById('close-intro-btn');
+    isPausedByIntro = true;
+    introOverlay.classList.remove('hidden');
+
+    closeBtn.addEventListener('click', () => {
+        sessionStorage.setItem('intro_seen', 'true');
+        introOverlay.classList.add('hidden');
+        isPausedByIntro = false;
+    });
+
     requestAnimationFrame(loop);
 }
+
 
 function loop() {
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
-
-    player.update(world);
     const corners = player.getCorners()
+
+    if (isPausedByIntro) {
+        requestAnimationFrame(loop);
+        return;
+    }
+    // 1. Блокируем обновление игрока, если идет разговор
+    if (!dialogue.isActive) {
+        player.update(world);
+    } else {
+        // В режиме диалога пробел/клик листает текст
+        if (keys.Space) {
+            keys.Space = false; // "Съедаем" нажатие, чтобы не листало сразу всё
+            dialogue.next();
+        }
+    }
+
 
     let found = [];
     corners.forEach(c => {
@@ -35,10 +65,40 @@ function loop() {
     const activeEff = world.resolvePriority(found);
 
     const prompt = document.getElementById('interaction-prompt');
-    if (activeEff && activeEff.type === 'active') {
-        prompt.classList.remove('hidden');
-        if (keys.Space) player.color = activeEff.color || player.color;
-    } else { prompt.classList.add('hidden'); }
+    const isInteractable = (activeEff && activeEff.type === 'active');
+    updateUIVisibility(isInteractable); // Делегируем выбор UI джойстику
+
+    if (isInteractable && !dialogue.isActive) {
+        if (keys.Space) {
+            keys.Space = false;
+            if (activeEff.dialogue) {
+                dialogue.show(activeEff.npc_name || "Объект", activeEff.dialogue);
+            }
+        }
+    }
+
+
+
+    // 2. Триггер диалога (например, при нажатии Пробела в активной зоне)
+
+    if (activeEff && activeEff.type === 'active' && !dialogue.isActive) {
+        // prompt.classList.remove('hidden');
+
+        if (keys.Space) {
+            keys.Space = false;
+
+            // Проверяем, есть ли у эффекта готовый диалог
+            if (activeEff.dialogue) {
+                const name = activeEff.npc_name || "Объект";
+                const lines = activeEff.dialogue;
+
+                dialogue.show(name, lines);
+            }
+        }
+    }
+
+
+
 
     // HUD
     document.getElementById('pos-val').innerText = `${Math.round(player.x)}, ${Math.round(player.y)}`;
@@ -60,6 +120,7 @@ function loop() {
     // Рисуем мир, передавая углы игрока для расчета хайлайта
     world.draw(ctx, player.x, player.y, corners);
     player.draw(ctx);
+
     ctx.restore();
 
     requestAnimationFrame(loop);

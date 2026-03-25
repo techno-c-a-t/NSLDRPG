@@ -1,12 +1,45 @@
 import { CONFIG } from './engine.js';
 
 export class World {
-    constructor() { this.objects = []; }
+    constructor() {
+        this.objects = [];
+        this.assets = new Map(); // Кеш картинок: "путь" -> Image
+    }
 
     async loadObjects() {
         const res = await fetch('./data/objects.json');
         const data = await res.json();
         this.objects = data.objects;
+
+        // Автоматическая загрузка всех картинок из JSON
+        const loadPromises = [];
+
+        this.objects.forEach(obj => {
+            if (obj.sprite && obj.sprite.url) {
+                loadPromises.push(this.loadImage(obj.sprite.url));
+            }
+        });
+
+        // Ждем, пока ВСЕ картинки загрузятся
+        await Promise.all(loadPromises);
+        console.log("Все ассеты мира загружены");
+    }
+
+    loadImage(url) {
+        if (this.assets.has(url)) return Promise.resolve(); // Уже загружено
+
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+                this.assets.set(url, img);
+                resolve();
+            };
+            img.onerror = () => {
+                console.error(`Ошибка загрузки ассета: ${url}`);
+                resolve(); // Продолжаем работу даже при ошибке
+            };
+            img.src = url;
+        });
     }
 
     // Внутри класса World (world.js)
@@ -54,7 +87,7 @@ export class World {
 
     draw(ctx, px, py, playerCorners) {
         // 1. Отрисовка сетки во всем вьюпорте (чтобы не было пустых черных дыр)
-        const range = 40;
+        const range = 80;
         for (let x = Math.floor(px - range); x < px + range; x++) {
             for (let y = Math.floor(py - range); y < py + range; y++) {
                 if (x < 0 || x >= CONFIG.WORLD_SIZE || y < 0 || y >= CONFIG.WORLD_SIZE) continue;
@@ -66,44 +99,65 @@ export class World {
                 }
 
                 // Эффекты
-                const effs = this.getAllEffectsAt(x, y);
-                if (effs.length > 0) {
-                    let r = 0, g = 0;
-                    effs.forEach(e => {
-                        if (e.type === 'active') r = 125;
-                        if (e.type === 'passive') g = 125;
-                    });
-                    ctx.fillStyle = `rgba(${r}, ${g}, 0, 0.3)`;
-                    ctx.fillRect(x * CONFIG.CHUNK, y * CONFIG.CHUNK, CONFIG.CHUNK, CONFIG.CHUNK);
+                if (CONFIG.DEBUG == 1) {
+                    const effs = this.getAllEffectsAt(x, y);
+                    if (effs.length > 0) {
+                        let r = 0, g = 0;
+                        effs.forEach(e => {
+                            if (e.type === 'active') r = 125;
+                            if (e.type === 'passive') g = 125;
+                        });
+                        ctx.fillStyle = `rgba(${r}, ${g}, 0, 0.3)`;
+                        ctx.fillRect(x * CONFIG.CHUNK, y * CONFIG.CHUNK, CONFIG.CHUNK, CONFIG.CHUNK);
+                    }
                 }
+
             }
         }
 
         // 2. Отрисовка объектов с эффектом Highlight
         this.objects.forEach(o => {
-            // Проверка Highlight по пассивной зоне (считаем от центра коллайдера объекта)
+            // Логика Highlight (яркость)
             let isHigh = false;
             playerCorners.forEach(c => {
-                const d = this.getAllEffectsAt(c.x, c.y);
-                if (d.some(e => e.obj.id === o.id && e.action === 'highlight')) isHigh = true;
+                const effs = this.getAllEffectsAt(Math.floor(c.x), Math.floor(c.y));
+                if (effs.some(e => e.obj.id === o.id && e.action === 'highlight')) isHigh = true;
             });
 
-            ctx.globalAlpha = isHigh ? 1.0 : 0.4;
+            ctx.globalAlpha = 1.0; // isHigh ? 1.0 : 0.6; // Если нет хайлайта, делаем чуть тусклее
 
-            // 1. Рисуем спрайт (используем o.sprite.w/h из JSON)
-            ctx.fillStyle = o.color;
-            ctx.fillRect(o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, o.sprite.w * CONFIG.CHUNK, o.sprite.h * CONFIG.CHUNK);
+            // АВТОМАТИЧЕСКАЯ ОТРИСОВКА КАРТИНКИ
+            const img = this.assets.get(o.sprite.url);
 
-            // 2. ДЕБАГ: Рисуем коллайдер объекта (синяя рамка)
+            if (img) {
+                ctx.drawImage(
+                    img,
+                    o.x * CONFIG.CHUNK,
+                    o.y * CONFIG.CHUNK,
+                    o.sprite.w * CONFIG.CHUNK,
+                    o.sprite.h * CONFIG.CHUNK
+                );
+            } else {
+                // Фолбэк на цвет, если картинка не указана или не загрузилась
+                ctx.fillStyle = o.color || "magenta";
+                ctx.fillRect(
+                    o.x * CONFIG.CHUNK,
+                    o.y * CONFIG.CHUNK,
+                    o.sprite.w * CONFIG.CHUNK,
+                    o.sprite.h * CONFIG.CHUNK
+                );
+            }
 
-            ctx.strokeStyle = "blue";
-            ctx.strokeRect(
-                (o.x + o.collision.ox) * CONFIG.CHUNK,
-                (o.y + o.collision.oy) * CONFIG.CHUNK,
-                o.collision.w * CONFIG.CHUNK,
-                o.collision.h * CONFIG.CHUNK
-            );
-
+            // Рендер коллайдера (опционально для дебага)
+            if (CONFIG.DEBUG == 1) {
+                ctx.strokeStyle = "blue";
+                ctx.strokeRect(
+                    (o.x + o.collision.ox) * CONFIG.CHUNK,
+                    (o.y + o.collision.oy) * CONFIG.CHUNK,
+                    o.collision.w * CONFIG.CHUNK,
+                    o.collision.h * CONFIG.CHUNK
+                );
+            }
 
             ctx.globalAlpha = 1.0;
         });
