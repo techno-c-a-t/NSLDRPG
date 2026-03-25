@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Наследники: Alpha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui-layer">
+        <div id="hud">
+            TOKEN: <span id="token-val"></span><br>
+            POS: <span id="pos-val">0, 0</span>
+        </div>
+        <div id="interaction-prompt" class="hidden">Осторожно!!!</div>
+        <div id="save-msg" class="hidden">СОХРАНЕНО</div>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+
+    <!-- Запуск игры как модуля -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

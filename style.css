@@ -1,0 +1,48 @@
+body, html {
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background: #050505;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    display: block;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#ui-layer {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+    color: #0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+#hud { font-size: 14px; text-shadow: 2px 2px #000; }
+
+#interaction-prompt {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    padding: 10px 20px;
+    border: 2px solid #0f0;
+    font-weight: bold;
+}
+
+#save-msg {
+    position: absolute;
+    top: 20px; right: 20px;
+    background: #004400;
+    padding: 5px 10px;
+}
+
+.hidden { display: none !important; }
