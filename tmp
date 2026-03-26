@@ -1,0 +1,88 @@
+{
+  "room_name": "Room 1",
+  "width_chunks": 256,
+  "height_chunks": 256,
+  "objects": [
+    {
+      "id": "old_house",
+      "x": 10,
+      "y": 200,
+      "z": -50,
+      "color": "#8B4513",
+      "sprite": {
+        "w": 39,
+        "h": 30,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 39,
+        "h": 30,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 2,
+          "action": "can_interact",
+          "priority": 1,
+          "dialogue": [
+            "Стены этого дома помнят первого админа...",
+            "Говорят, здесь спрятан архив Нулевого круга.",
+            "Но дверь заперта на цифровой замок."
+          ],
+          "npc_name": "Старый дом"
+        }
+      ]
+    },
+    {
+      "id": "old_stone_house_1774565215457",
+      "x": 150,
+      "y": 28,
+      "z": 20,
+      "sprite": {
+        "w": 50,
+        "h": 40,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 14,
+        "h": 13,
+        "ox": 10,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "NSLDNK_1774565834117",
+      "x": 57,
+      "y": 45,
+      "z": 0,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACrklEQVR4AeyVAbLCIAxE+/797+x3ZbA0tJZionbKjCskhGSzZPRvmqbblSEB7v1f9zMEuO7bp87HBCQdrvs9JuC6b586HxOQdLju95iA67596nxMQNLhut/uE3C73SbBW1LlFLzzugqQCQLePCdIOVVD6C1g77kKoOSQiGrvDfDP7SKAXkTwbvhVPq96LgK8IvrrZ+4CvHoZnbVgSzTd3Trr9bsL0EvkW/dCBLAvJVtobVKxQhlv7fLsnb2LAFD/OotwRi/BfF+rzQF1TRvTYrsIoEJwnBDw/H9XjlYAraG7cW4C7FYyATA3AfPehIWbrgLAsUY02sKRLuFYjb3cbgKoEWGvoM6hbgJqn2ItVEOw/l7bTYBeAt++NwTweAE7ksDj1x14Oz2wmsvW7C0UPgGQGigJrpG3PqjvlTm89iEC2GZEFtCyAPB43YXzbgD37+VnLecyYt3a84YIoKJ7hMvzcq+7FnvnNv6IHSaASIh4CflK5LPSp33251W+KLgIAPXIQu3rbQLqXFD7evK7CNBT+FfuhAgA9etA7dsSAepYqH1b94/43QSAdoIwx0LaQ1pbyEN77F4+NwHWCkEiCstVsZB8W3vg8RcJKCQMrgJAIqtf78wYkm/Nhu2zHJ/XnBOWd/J57+oqgEhAIpgJyyeUdrnXmVD6yn15Bim3fF5wF0DEIBHNjdhVMYL8gvYZ2bYrpJw5zmsNEaCFXG5QseVe9icRLoBtztpls/bM2mWs1z5MAPAbWfDLZYULE0CFgOdfGSBXE4Cue03JTVCoAKbWy6Zgbtrei7Q/KkDZCPA0Yd4/nZ2bo9e+JsBRolHxQ4AoZVvyAo/fhZbYqJgxAVHKniXvmICzvFQUzzEBUcqeJe+YgLO8VBTPMQFRyp4l75iAs7xUFM/TT8C7wvwDAAD//+aTrE4AAAAGSURBVAMAr7A2UIRDXKwAAAAASUVORK5CYIIA"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 2,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Hello!",
+            "This is a max JSON example."
+          ],
+          "npc_name": "Example NPC"
+        }
+      ],
+      "color": "#ff00ff"
+    }
+  ]
+}

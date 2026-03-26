@@ -12,22 +12,18 @@
     <div id="app-container">
         <!-- Palette (Left or Top) -->
         <aside id="palette">
-            <div class="palette-header" style="display:flex; justify-content:space-between; align-items:center;">
-                <h3>Палитра</h3>
-                <div>
-                    <button id="btn-help" style="width:auto; margin:0;" title="Помощь">?</button>
-                </div>
+            <div class="actions top-actions">
+                <button id="btn-room-settings" title="Настройки">⚙️ Настройки</button>
+                <button id="btn-load" title="Загрузить">📂 Загрузить</button>
+                <button id="btn-upload-asset" title="Добавить файл" style="background:#2196F3;">+Спрайт</button>
+                <button id="btn-clear-all" title="Очистить всё" style="background:#d32f2f;">🗑️ Очистить</button>
+                <button id="btn-help" title="Помощь" style="flex: 0 0 30px; background:#4CAF50; padding: 6px;">?</button>
             </div>
+            
+            <input type="file" id="file-input" style="display:none;" accept=".json">
+            <input type="file" id="file-asset-input" style="display:none;" accept="image/png">
+            
             <div id="asset-list"></div>
-
-            <div class="actions">
-                <button id="btn-test" style="background:var(--accent);">Испытать</button>
-                <button id="btn-room-settings">Настройки</button>
-                <button id="btn-load">Загрузить</button>
-                <button id="btn-upload-asset" style="background:#2196F3;">+Свой Спрайт</button>
-                <input type="file" id="file-input" style="display:none;" accept=".json">
-                <input type="file" id="file-asset-input" style="display:none;" accept="image/png">
-            </div>
         </aside>
 
         <div class="resizer" id="resizer-pal"></div>
@@ -58,7 +54,7 @@
                 </div>
 
                 <div id="btn-test-act"
-                    style="display: none; position:absolute; bottom:20px; left:20px; font-size:16px; padding:20px 25px; border-radius:50%; background:var(--accent); color:white; font-weight:bold; cursor:pointer; pointer-events:auto; z-index: 60; box-shadow: 0 4px 6px rgba(0,0,0,0.5); user-select:none;">
+                    style="position:absolute; bottom:20px; left:20px; font-size:16px; padding:20px 25px; border-radius:50%; background:var(--accent); color:white; font-weight:bold; cursor:pointer; pointer-events:auto; z-index: 60; box-shadow: 0 4px 6px rgba(0,0,0,0.5); user-select:none;">
                     ACT</div>
 
                 <div id="joystick-zone">
@@ -73,12 +69,10 @@
 
         <!-- Inspector (Right or Bottom) -->
         <aside id="inspector">
-            <div class="inspector-header">
-                <h3>Свойства объекта</h3>
-                <div class="actions">
-                    <button id="btn-copy-json">Копировать всё</button>
-                    <button id="btn-download-json">Скачать JSON</button>
-                </div>
+            <div class="actions bottom-actions">
+                <button id="btn-copy-json" style="background:#607D8B;">Копировать</button>
+                <button id="btn-download-json" style="background:#009688;">Скачать</button>
+                <button id="btn-test" style="background:#E91E63; font-size:13px;">🕹️ Испытать</button>
             </div>
 
             <p id="no-selection">Выберите объект для редактирования</p>
@@ -123,6 +117,7 @@
             <p><strong>Испытание (Тест):</strong><br>
                 - Нажмите "Испытать" чтобы "войти" в комнату в роли игрока. <br>
                 - Появится джойстик для перемещения (мобильный/мышь) либо используйте WASD на клавиатуре.<br>
+                - Зажав Shift или дважды кликнув по джойстику, вы ускоритесь.<br>
                 - В этом режиме можно отключить/включить отображение границ коллайдеров.<br>
             </p>
             <p><strong>Структура объекта (Для Дизайнеров):</strong><br>
@@ -142,8 +137,7 @@
                 - <code>action</code>: Тип действия ("can_interact", "highlight")<br>
                 - <code>dialogue</code>: Массив фраз NPC/Объекта<br>
                 - <code>npc_name</code>: Имя говорящего.<br>
-                Кнопка "Максимальный JSON" автоматически заполнит эти поля для выделенного объекта (останется только
-                подправить значения).
+                Кнопка "Максимальный JSON" автоматически заполнит эти поля для выделенного объекта.
             </p>
             <p>Ваша комната и добавленные извне спрайты автоматически сохраняется в браузере. Вы можете скопировать или
                 скачать JSON для экспорта в игру.</p>
