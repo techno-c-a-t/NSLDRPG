@@ -1,7 +1,7 @@
 import { World } from './world.js';
 import { Player } from './player.js';
 import { keys, initJoystick, updateUIVisibility } from './input.js';
-import { CONFIG } from './engine.js';;
+import { CONFIG } from './config.js';;
 import { DialogueManager } from './dialogue.js';
 
 const world = new World();
@@ -32,18 +32,19 @@ async function init() {
         introOverlay.classList.add('hidden');
         isPausedByIntro = false;
     });
-
     requestAnimationFrame(loop);
 }
 
 
 function loop() {
+    // console.log("start");
     const canvas = document.getElementById('gameCanvas');
     const ctx = canvas.getContext('2d');
-    const corners = player.getCorners()
-
+    const corners = player.getCorners();
+    // console.log("next")
     if (isPausedByIntro) {
         requestAnimationFrame(loop);
+        
         return;
     }
     // 1. Блокируем обновление игрока, если идет разговор
@@ -57,7 +58,7 @@ function loop() {
         }
     }
 
-
+    // console.log("Algo");
     let found = [];
     corners.forEach(c => {
         found.push(...world.getAllEffectsAt(Math.floor(c.x), Math.floor(c.y)));
@@ -112,17 +113,29 @@ function loop() {
     ctx.save();
     const cx = (player.x + (player.targetX - player.x) * player.progress + CONFIG.PLAYER_W / 2) * CONFIG.CHUNK;
     const cy = (player.y + (player.targetY - player.y) * player.progress + CONFIG.PLAYER_H / 2) * CONFIG.CHUNK;
-    ctx.translate(canvas.width / 2, canvas.height / 2);
+    ctx.translate(Math.round(canvas.width / 2), Math.round(canvas.height / 2));
     ctx.scale(scale, scale);
-    ctx.translate(-cx, -cy);
+    ctx.translate(Math.round(-cx), Math.round(-cy));
     // Внутри loop() в main.js
 
-    // Рисуем мир, передавая углы игрока для расчета хайлайта
-    world.draw(ctx, player.x, player.y, corners);
+
+
+    // 1. Самый нижний слой — Шахматка и зоны
+    world.drawBackground(ctx, Math.round(player.x), Math.round(player.y));
+
+    // 2. Слой объектов ПОД игроком (Z от -100 до -1)
+    world.drawLayer(ctx, Math.round(player.x), Math.round(player.y), corners, -100, -1);
+
+    // 3. Игрок
     player.draw(ctx);
+
+    // 4. Слой объектов НАД игроком (Z от 0 до 100)
+    // console.log("Last layer");
+    world.drawLayer(ctx, Math.round(player.x), Math.round(player.y), corners, 0, 100);
 
     ctx.restore();
 
     requestAnimationFrame(loop);
+
 }
 init();

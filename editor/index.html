@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>NSLD Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app-container">
+        <!-- Palette (Left or Top) -->
+        <aside id="palette">
+            <div class="palette-header" style="display:flex; justify-content:space-between; align-items:center;">
+                <h3>Палитра</h3>
+                <div>
+                    <button id="btn-help" style="width:auto; margin:0;" title="Помощь">?</button>
+                </div>
+            </div>
+            <div id="asset-list"></div>
+
+            <div class="actions">
+                <button id="btn-test" style="background:var(--accent);">Испытать</button>
+                <button id="btn-room-settings">Настройки</button>
+                <button id="btn-load">Загрузить</button>
+                <button id="btn-upload-asset" style="background:#2196F3;">+Свой Спрайт</button>
+                <input type="file" id="file-input" style="display:none;" accept=".json">
+                <input type="file" id="file-asset-input" style="display:none;" accept="image/png">
+            </div>
+        </aside>
+
+        <div class="resizer" id="resizer-pal"></div>
+
+        <!-- Main Editor Map -->
+        <main id="editor-area">
+            <canvas id="map-canvas"></canvas>
+
+            <div id="zoom-controls">
+                <button id="btn-zoom-out">-</button>
+                <span id="zoom-level">100%</span>
+                <button id="btn-zoom-in">+</button>
+            </div>
+
+            <div id="test-ui" style="display:none;">
+                <div id="test-topbar">
+                    <button id="btn-test-return">Вернуться</button>
+                    <button id="btn-test-debug">Коллайдеры: ВКЛ</button>
+                </div>
+
+                <div id="test-dialogue-box"
+                    style="display:none; position:absolute; bottom:20px; left:50%; transform:translateX(-50%); width:80%; max-width:600px; background:var(--panel-bg); border:2px solid var(--accent); border-radius:10px; padding:20px; color:white; pointer-events:auto; z-index: 70;">
+                    <div id="test-dialogue-name"
+                        style="font-weight:bold; color:var(--accent); margin-bottom:10px; font-size:18px;">NAME</div>
+                    <div id="test-dialogue-text" style="font-size:16px;">Text...</div>
+                    <div style="text-align:right; font-size:12px; margin-top:10px; color:#aaa;">[Нажми ACT или Пробел]
+                    </div>
+                </div>
+
+                <div id="btn-test-act"
+                    style="display: none; position:absolute; bottom:20px; left:20px; font-size:16px; padding:20px 25px; border-radius:50%; background:var(--accent); color:white; font-weight:bold; cursor:pointer; pointer-events:auto; z-index: 60; box-shadow: 0 4px 6px rgba(0,0,0,0.5); user-select:none;">
+                    ACT</div>
+
+                <div id="joystick-zone">
+                    <div id="joystick-base">
+                        <div id="joystick-stick"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="resizer" id="resizer-insp"></div>
+
+        <!-- Inspector (Right or Bottom) -->
+        <aside id="inspector">
+            <div class="inspector-header">
+                <h3>Свойства объекта</h3>
+                <div class="actions">
+                    <button id="btn-copy-json">Копировать всё</button>
+                    <button id="btn-download-json">Скачать JSON</button>
+                </div>
+            </div>
+
+            <p id="no-selection">Выберите объект для редактирования</p>
+            <div id="editor-panel" style="display: none;">
+                <button id="btn-max-json" style="margin-bottom:10px; background:#FF9800; color:#000;">Максимальный
+                    JSON</button>
+                <textarea id="json-editor" spellcheck="false"></textarea>
+                <p id="json-error" style="color: red; display: none; margin-top: 5px;">Ошибка JSON</p>
+                <button id="btn-delete-obj" style="margin-top:10px; background:#d32f2f;">Удалить объект</button>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Room settings modal -->
+    <div id="room-modal" class="modal">
+        <div class="modal-content">
+            <h3>Настройки комнаты</h3>
+            <label>Название: <input type="text" id="room-name"></label><br>
+            <label>Ширина (чанки): <input type="number" id="room-w"></label><br>
+            <label>Высота (чанки): <input type="number" id="room-h"></label><br>
+            <button id="btn-save-room">Сохранить</button>
+            <button id="btn-close-room">Отмена</button>
+        </div>
+    </div>
+
+    <!-- Help modal -->
+    <div id="help-modal" class="modal">
+        <div class="modal-content"
+            style="width: 80%; max-width: 600px; max-height:80vh; overflow-y:auto; line-height:1.5;">
+            <h3>Помощь</h3>
+            <p><strong>Создание комнаты:</strong><br>
+                - Нажмите на объект в палитре (слева/сверху), чтобы он появился в центре камеры.<br>
+                - Или перетащите его мышью на поле (Drag & Drop).<br>
+                - Зажмите ЛКМ (или один палец на мобилке) на пустом поле камеры, чтобы перемещаться по комнате.<br>
+                - Используйте колёсико мыши или щипок двумя пальцами для масштабирования (или кнопки +/-).<br>
+            </p>
+            <p><strong>Редактирование объектов:</strong><br>
+                - Кликните на объект на поле, чтобы выбрать его. Панель справа/снизу покажет его свойства.<br>
+                - Изменяйте JSON - изменения сразу отобразятся на карте.<br>
+                - Кнопка "Удалить объект" удалит его с карты.
+            </p>
+            <p><strong>Испытание (Тест):</strong><br>
+                - Нажмите "Испытать" чтобы "войти" в комнату в роли игрока. <br>
+                - Появится джойстик для перемещения (мобильный/мышь) либо используйте WASD на клавиатуре.<br>
+                - В этом режиме можно отключить/включить отображение границ коллайдеров.<br>
+            </p>
+            <p><strong>Структура объекта (Для Дизайнеров):</strong><br>
+                Вы можете редактировать любые поля у объекта. Вот что они значат:<br>
+                • <code>id</code>: Уникальное имя объекта.<br>
+                • <code>x, y, z</code>: Позиция в чанках. <code>z</code> отвечает за слой (чем больше, тем выше/поверх
+                остальных).<br>
+                • <code>color</code>: Запасной цвет (HEX), если картинка не загрузится (например, "#ff00ff").<br>
+                • <code>sprite</code>: Словарь с размерами (w, h) и ссылкой на картинку (url). Обратите внимание:
+                размеры <code>w</code> и <code>h</code> задаются в чанках.<br>
+                • <code>collision</code>: Словарь с коллайдером. Включает <code>w</code>, <code>h</code> (ширина/высота)
+                и смещение от верхнего левого угла <code>ox</code>, <code>oy</code>. Если коллайдер меньше спрайта —
+                получится проходимая зона за / перед объектом!<br>
+                • <code>effects</code>: Массив эффектов/триггеров. <br>
+                - <code>type</code>: "active" или "passive"<br>
+                - <code>radius</code>: Зона срабатывания (в чанках)<br>
+                - <code>action</code>: Тип действия ("can_interact", "highlight")<br>
+                - <code>dialogue</code>: Массив фраз NPC/Объекта<br>
+                - <code>npc_name</code>: Имя говорящего.<br>
+                Кнопка "Максимальный JSON" автоматически заполнит эти поля для выделенного объекта (останется только
+                подправить значения).
+            </p>
+            <p>Ваша комната и добавленные извне спрайты автоматически сохраняется в браузере. Вы можете скопировать или
+                скачать JSON для экспорта в игру.</p>
+            <button id="btn-close-help" style="margin-top:20px;">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

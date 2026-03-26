@@ -1,9 +1,13 @@
 {
+  "room_name": "Room 1",
+  "width_chunks": 256,
+  "height_chunks": 256,
   "objects": [
     {
       "id": "old_house",
-      "x": 150,
+      "x": 10,
       "y": 200,
+      "z": -50,
       "color": "#8B4513",
       "sprite": {
         "w": 39,
@@ -28,72 +32,6 @@
             "Но дверь заперта на цифровой замок."
           ],
           "npc_name": "Старый дом"
-        }
-      ]
-    }
-  ],
-  "tmp": [
-    {
-      "id": "red_circle",
-      "type": "circle",
-      "x": 50,
-      "y": 50,
-      "color": "red",
-      "sprite": {
-        "w": 4,
-        "h": 4
-      },
-      "collision": {
-        "w": 6,
-        "h": 6,
-        "ox": -1,
-        "oy": -1
-      },
-      "effects": [
-        {
-          "type": "passive",
-          "radius": 4,
-          "action": "highlight",
-          "priority": 1.0
-        },
-        {
-          "type": "active",
-          "radius": 1,
-          "action": "can_interact",
-          "color": "#ff0000",
-          "priority": 2.0
-        }
-      ]
-    },
-    {
-      "id": "blue_circle",
-      "type": "circle",
-      "x": 200,
-      "y": 200,
-      "color": "blue",
-      "sprite": {
-        "w": 10,
-        "h": 10
-      },
-      "collision": {
-        "w": 8,
-        "h": 8,
-        "ox": 1,
-        "oy": 1
-      },
-      "effects": [
-        {
-          "type": "passive",
-          "radius": 4,
-          "action": "highlight",
-          "priority": 1.0
-        },
-        {
-          "type": "active",
-          "radius": 1,
-          "action": "can_interact",
-          "color": "#0000ff",
-          "priority": 2.0
         }
       ]
     }
