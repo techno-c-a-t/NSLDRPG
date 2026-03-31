@@ -9,6 +9,7 @@ const dialogue = new DialogueManager();
 let player;
 let token = '';
 let isPausedByIntro = false;
+let audio = new Audio();
 
 async function init() {
     await world.loadObjects();
@@ -31,6 +32,15 @@ async function init() {
         sessionStorage.setItem('intro_seen', 'true');
         introOverlay.classList.add('hidden');
         isPausedByIntro = false;
+
+        audio.volume = 0.5;
+        audio.src = 'assets/audio/field_of_hopes_and_dreams.mp3';
+        // 2. Включаем автоповтор (зацикливание)
+        audio.loop = true;
+        // 3. Запускаем воспроизведение, как только данных будет достаточно
+        audio.play()
+            .then(() => console.log("Музыка играет!"))
+            .catch(err => console.error("Ошибка воспроизведения:", err));
     });
     requestAnimationFrame(loop);
 }
@@ -44,7 +54,7 @@ function loop() {
     // console.log("next")
     if (isPausedByIntro) {
         requestAnimationFrame(loop);
-        
+
         return;
     }
     // 1. Блокируем обновление игрока, если идет разговор
