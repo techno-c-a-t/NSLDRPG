@@ -1,7 +1,7 @@
 import { World } from './world.js';
 import { Player } from './player.js';
 import { keys, initJoystick, updateUIVisibility } from './input.js';
-import { CONFIG } from './config.js';;
+import { CONFIG, CONFIG_ISAAC } from './config.js';;
 import { DialogueManager } from './dialogue.js';
 
 const world = new World();
@@ -17,7 +17,7 @@ async function init() {
     if (!urlParams.get('token')) window.history.replaceState({}, '', `?token=${token}`);
 
     const saved = localStorage.getItem('save_' + token);
-    const startPos = saved ? JSON.parse(saved) : { x: CONFIG.START_X, y: CONFIG.START_X };
+    const startPos = saved ? JSON.parse(saved) : { x: CONFIG.START_X, y: CONFIG.START_Y };
     player = new Player(startPos.x, startPos.y);
     initJoystick(); // Включаем джойстик
 
@@ -106,7 +106,7 @@ function loop() {
     document.getElementById('token-val').innerText = CONFIG.tmp;
 
     // Отрисовка
-    const scale = Math.max(1, Math.floor(Math.min(window.innerWidth, window.innerHeight) / CONFIG.VIEW_MIN));
+    const scale = Math.max(1, Math.floor(Math.min(window.innerWidth, window.innerHeight) / CONFIG.VIEW_SIZE));
     canvas.width = window.innerWidth; canvas.height = window.innerHeight;
     ctx.imageSmoothingEnabled = false;
 

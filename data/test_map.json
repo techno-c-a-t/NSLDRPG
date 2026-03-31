@@ -1,0 +1,8244 @@
+{
+  "room_name": "Test_room",
+  "width_chunks": 128,
+  "height_chunks": 128,
+  "objects": [
+    {
+      "id": "grass_1774714122757",
+      "x": 0,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381",
+      "x": 0,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295",
+      "x": 0,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860",
+      "x": 0,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000",
+      "x": 0,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000",
+      "x": 0,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000",
+      "x": 0,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879",
+      "x": 0,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879",
+      "x": 0,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879",
+      "x": 0,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879",
+      "x": 0,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577",
+      "x": 0,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577",
+      "x": 0,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577",
+      "x": 0,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577",
+      "x": 0,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714274367",
+      "x": 8,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714274367",
+      "x": 8,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714274367",
+      "x": 8,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714274367",
+      "x": 8,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714274367",
+      "x": 8,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714274367",
+      "x": 8,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714274367",
+      "x": 8,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714274367",
+      "x": 8,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714274367",
+      "x": 8,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714274367",
+      "x": 8,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714274367",
+      "x": 8,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714274367",
+      "x": 40,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714274367",
+      "x": 40,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714274367",
+      "x": 40,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714274367",
+      "x": 8,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714281449",
+      "x": 16,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714281449",
+      "x": 16,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714281449",
+      "x": 16,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714281449",
+      "x": 16,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714281449",
+      "x": 16,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714281449",
+      "x": 16,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714281449",
+      "x": 16,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714281449",
+      "x": 16,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714281449",
+      "x": 16,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714281449",
+      "x": 16,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714281449",
+      "x": 16,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714284947",
+      "x": 24,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714284947",
+      "x": 24,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714284947",
+      "x": 24,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714284947",
+      "x": 24,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714284947",
+      "x": 24,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714284947",
+      "x": 24,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714284947",
+      "x": 24,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714284947",
+      "x": 24,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714284947",
+      "x": 24,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714284947",
+      "x": 24,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714284947",
+      "x": 24,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714287997",
+      "x": 32,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714287997",
+      "x": 32,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714287997",
+      "x": 32,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714287997",
+      "x": 32,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714287997",
+      "x": 32,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714287997",
+      "x": 32,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714287997",
+      "x": 32,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714287997",
+      "x": 32,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714287997",
+      "x": 32,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714287997",
+      "x": 32,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714287997",
+      "x": 32,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714291913",
+      "x": 40,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714291913",
+      "x": 40,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714291913",
+      "x": 40,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714291913",
+      "x": 40,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714291913",
+      "x": 40,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714291913",
+      "x": 40,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714291913",
+      "x": 40,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714291913",
+      "x": 40,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714291913",
+      "x": 40,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714291913",
+      "x": 40,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714291913",
+      "x": 40,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714296928",
+      "x": 48,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714296928",
+      "x": 48,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714296928",
+      "x": 48,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714296928",
+      "x": 48,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714296928",
+      "x": 48,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714296928",
+      "x": 48,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714296928",
+      "x": 48,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714296928",
+      "x": 48,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714296928",
+      "x": 48,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714296928",
+      "x": 48,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714296928",
+      "x": 48,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714296928",
+      "x": 48,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714296928",
+      "x": 48,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714296928",
+      "x": 48,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714303175",
+      "x": 56,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714303175",
+      "x": 56,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714211577_copy_1774714303175",
+      "x": 56,
+      "y": 104,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714303175",
+      "x": 56,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714303175",
+      "x": 56,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714303175",
+      "x": 56,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714303175",
+      "x": 56,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714303175",
+      "x": 56,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714303175",
+      "x": 56,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714303175",
+      "x": 56,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714303175",
+      "x": 56,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714303175",
+      "x": 56,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714303175",
+      "x": 56,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714303175",
+      "x": 56,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714306673",
+      "x": 64,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714306673",
+      "x": 64,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714306673",
+      "x": 64,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714306673",
+      "x": 64,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714306673",
+      "x": 64,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714306673",
+      "x": 64,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714311373",
+      "x": 72,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714311373",
+      "x": 72,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714311373",
+      "x": 72,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714311373",
+      "x": 72,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714311373",
+      "x": 72,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714311373",
+      "x": 72,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714311373",
+      "x": 72,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714311373",
+      "x": 72,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714311373",
+      "x": 72,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714311373",
+      "x": 72,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714311373",
+      "x": 72,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714311373",
+      "x": 72,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714311373",
+      "x": 72,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714311373",
+      "x": 72,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714315204",
+      "x": 80,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714315204",
+      "x": 80,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714315204",
+      "x": 80,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714315204",
+      "x": 80,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714315204",
+      "x": 80,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714315204",
+      "x": 80,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714315204",
+      "x": 80,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714315204",
+      "x": 80,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714315204",
+      "x": 80,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714315204",
+      "x": 80,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714315204",
+      "x": 80,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714315204",
+      "x": 80,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714315204",
+      "x": 80,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714315204",
+      "x": 80,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714319036",
+      "x": 88,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714319036",
+      "x": 88,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714319036",
+      "x": 88,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714319036",
+      "x": 88,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714319036",
+      "x": 88,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714319036",
+      "x": 88,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714319036",
+      "x": 88,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714319036",
+      "x": 88,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714319036",
+      "x": 88,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714319036",
+      "x": 88,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714319036",
+      "x": 88,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714319036",
+      "x": 88,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714319036",
+      "x": 88,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714319036",
+      "x": 88,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714326851",
+      "x": 96,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714326851",
+      "x": 96,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714326851",
+      "x": 96,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714326851",
+      "x": 96,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714326851",
+      "x": 96,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714326851",
+      "x": 96,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714326851",
+      "x": 96,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714326851",
+      "x": 96,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714326851",
+      "x": 96,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714326851",
+      "x": 96,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714334914",
+      "x": 104,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714334914",
+      "x": 104,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714334914",
+      "x": 104,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714334914",
+      "x": 104,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714334914",
+      "x": 104,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714334914",
+      "x": 104,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714334914",
+      "x": 104,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714334914",
+      "x": 104,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714334914",
+      "x": 104,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714334914",
+      "x": 104,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714334914",
+      "x": 104,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714334914",
+      "x": 104,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714334914",
+      "x": 104,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714334914",
+      "x": 104,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714334914",
+      "x": 104,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714339529",
+      "x": 112,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714339529",
+      "x": 112,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714339529",
+      "x": 112,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714339529",
+      "x": 112,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714339529",
+      "x": 112,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714339529",
+      "x": 112,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714339529",
+      "x": 112,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714339529",
+      "x": 112,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714339529",
+      "x": 112,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714339529",
+      "x": 112,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714339529",
+      "x": 112,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714339529",
+      "x": 112,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714339529",
+      "x": 112,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714339529",
+      "x": 112,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714339529",
+      "x": 112,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714211577_copy_1774714346310",
+      "x": 120,
+      "y": 120,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714211577_copy_1774714346310",
+      "x": 120,
+      "y": 112,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714211577_copy_1774714346310",
+      "x": 120,
+      "y": 96,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 8,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714205879_copy_1774714346310",
+      "x": 120,
+      "y": 88,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714205879_copy_1774714346310",
+      "x": 120,
+      "y": 80,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714205879_copy_1774714346310",
+      "x": 120,
+      "y": 72,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714205879_copy_1774714346310",
+      "x": 120,
+      "y": 64,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714195000_copy_1774714346310",
+      "x": 120,
+      "y": 56,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714195000_copy_1774714346310",
+      "x": 120,
+      "y": 48,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714195000_copy_1774714346310",
+      "x": 120,
+      "y": 32,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714195000_copy_1774714346310",
+      "x": 120,
+      "y": 40,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714346310",
+      "x": 120,
+      "y": 16,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714166295_copy_1774714346310",
+      "x": 120,
+      "y": 24,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714169860_copy_1774714346310",
+      "x": 120,
+      "y": 8,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714346310",
+      "x": 120,
+      "y": 0,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "old_stone_house_1774714372905",
+      "x": 7,
+      "y": 3,
+      "z": -50,
+      "sprite": {
+        "w": 35,
+        "h": 30,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 35,
+        "h": 29,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 6,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Вы подходите к дому...",
+            "В нем кто то очень усердно трудится. ",
+            "Слышится шелест клавиш, в окне виден слабый фиолетовый свет",
+            "Вы решаете, что лучше не отвлекать обитателя."
+          ],
+          "npc_name": "Techno хата"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "pebble_1774715077500",
+      "x": 0,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523",
+      "x": 4,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022",
+      "x": 0,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967",
+      "x": 4,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715221663",
+      "x": 8,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715221663",
+      "x": 12,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715221663",
+      "x": 12,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715221663",
+      "x": 8,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715225329",
+      "x": 16,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329",
+      "x": 20,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329",
+      "x": 20,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715225329",
+      "x": 16,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911",
+      "x": 24,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911",
+      "x": 28,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911",
+      "x": 28,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911",
+      "x": 24,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975",
+      "x": 32,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715240975",
+      "x": 36,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715240975",
+      "x": 36,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975",
+      "x": 32,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715246057",
+      "x": 40,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715246057",
+      "x": 44,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715246057",
+      "x": 44,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715246057",
+      "x": 40,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "old_stone_house_1774722394679",
+      "x": 73,
+      "y": 79,
+      "z": -50,
+      "sprite": {
+        "w": 25,
+        "h": 24,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 25,
+        "h": 24,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 5,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "При ближнем рассмотрении оказалось что это...",
+            "...дом картографа.",
+            "На крыше висит флюгер, в мусорном ведре обрыки карты",
+            "В окне вы замечаете склонившеийся над столом силуэт ",
+            "Ходят слухи, что свет в этом доме не гаснет даже по ночам"
+          ],
+          "npc_name": "Домик картографа"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "bry_stands_1774980845859",
+      "x": 46,
+      "y": 64,
+      "z": -30,
+      "sprite": {
+        "w": 5,
+        "h": 8,
+        "url": "./assets/characters/bry_stands.png"
+      },
+      "collision": {
+        "w": 5,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 4,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Рада видеть тебя в наших местах",
+            "Я вот тут с Олеженькой таверну держу",
+            "Будет минутка - заходи на пиво"
+          ],
+          "npc_name": "Holly Briar"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "old_stone_house_1774980904533",
+      "x": 0,
+      "y": 48,
+      "z": -50,
+      "sprite": {
+        "w": 39,
+        "h": 25,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 39,
+        "h": 23,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 2,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Внутри тавенры са столиками сидят несколько человек",
+            "Вы решаетете присоединится...",
+            "...",
+            "...но не в этот раз"
+          ],
+          "npc_name": "Таверна"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "pebble_1774981099757",
+      "x": 60,
+      "y": 76,
+      "z": 0,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715246057_copy_1774981141348",
+      "x": 60,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715246057_copy_1774981141348",
+      "x": 56,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715246057_copy_1774981141348",
+      "x": 56,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715240975_copy_1774981141348",
+      "x": 52,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715240975_copy_1774981141348",
+      "x": 52,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911_copy_1774981141348",
+      "x": 44,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975_copy_1774981141348",
+      "x": 48,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975_copy_1774981141348",
+      "x": 48,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911_copy_1774981141348",
+      "x": 44,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348",
+      "x": 40,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348",
+      "x": 40,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348",
+      "x": 36,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348",
+      "x": 36,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953",
+      "x": 16,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953",
+      "x": 16,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953",
+      "x": 20,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953",
+      "x": 20,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911_copy_1774981141348_copy_1774981159953",
+      "x": 24,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911_copy_1774981141348_copy_1774981159953",
+      "x": 24,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975_copy_1774981141348_copy_1774981159953",
+      "x": 28,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975_copy_1774981141348_copy_1774981159953",
+      "x": 28,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715240975_copy_1774981141348_copy_1774981159953",
+      "x": 32,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715240975_copy_1774981141348_copy_1774981159953",
+      "x": 32,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "old_stone_house_1774981510414",
+      "x": 30,
+      "y": 95,
+      "z": -50,
+      "sprite": {
+        "w": 20,
+        "h": 15,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 20,
+        "h": 15,
+        "ox": 0,
+        "oy": 6
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 8,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Вы приближаетесь к этому странному хутору",
+            "Слышны пригушенные звуки то ли взрывов, то ли ударов",
+            "Похоже на древнее искусство магии",
+            "Вы не решаетесь подойти ближе."
+          ],
+          "npc_name": ""
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774981821837",
+      "x": 12,
+      "y": 75,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 4,
+        "h": 4,
+        "ox": 0,
+        "oy": 1
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715246057_copy_1774981141348_copy_1774982345645",
+      "x": 120,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715246057_copy_1774981141348_copy_1774982345645",
+      "x": 124,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774981099757_copy_1774982345645",
+      "x": 124,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715246057_copy_1774981141348_copy_1774982345645",
+      "x": 120,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715240975_copy_1774981141348_copy_1774982345645",
+      "x": 116,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715240975_copy_1774981141348_copy_1774982345645",
+      "x": 116,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975_copy_1774981141348_copy_1774982345645",
+      "x": 112,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975_copy_1774981141348_copy_1774982345645",
+      "x": 112,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911_copy_1774981141348_copy_1774982345645",
+      "x": 108,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911_copy_1774981141348_copy_1774982345645",
+      "x": 108,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774982345645",
+      "x": 100,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774982345645",
+      "x": 104,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774982345645",
+      "x": 104,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774982345645",
+      "x": 100,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 96,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 96,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 92,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 92,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 88,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 88,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 84,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 84,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 80,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645",
+      "x": 80,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 68,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 64,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 72,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 76,
+      "y": 104,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715240975_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 76,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 72,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 64,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885",
+      "x": 68,
+      "y": 108,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311",
+      "x": 68,
+      "y": 96,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311",
+      "x": 64,
+      "y": 96,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311",
+      "x": 64,
+      "y": 100,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311",
+      "x": 68,
+      "y": 100,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982419972",
+      "x": 68,
+      "y": 80,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982419972",
+      "x": 64,
+      "y": 80,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982419972",
+      "x": 64,
+      "y": 84,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982419972",
+      "x": 68,
+      "y": 84,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982419972",
+      "x": 64,
+      "y": 88,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982419972",
+      "x": 68,
+      "y": 88,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982419972",
+      "x": 68,
+      "y": 92,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982419972",
+      "x": 64,
+      "y": 92,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982423966",
+      "x": 68,
+      "y": 64,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982423966",
+      "x": 64,
+      "y": 64,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982423966",
+      "x": 64,
+      "y": 68,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982423966",
+      "x": 68,
+      "y": 68,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982423966",
+      "x": 64,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982423966",
+      "x": 68,
+      "y": 72,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982423966",
+      "x": 68,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982423966",
+      "x": 64,
+      "y": 76,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957",
+      "x": 68,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957",
+      "x": 64,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957",
+      "x": 64,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957",
+      "x": 68,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982432957",
+      "x": 64,
+      "y": 56,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982432957",
+      "x": 68,
+      "y": 56,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982432957",
+      "x": 68,
+      "y": 60,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982432957",
+      "x": 64,
+      "y": 60,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979",
+      "x": 68,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979",
+      "x": 64,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979",
+      "x": 64,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979",
+      "x": 68,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979",
+      "x": 64,
+      "y": 40,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979",
+      "x": 68,
+      "y": 40,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979",
+      "x": 68,
+      "y": 44,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979",
+      "x": 64,
+      "y": 44,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855",
+      "x": 52,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855",
+      "x": 48,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855",
+      "x": 48,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855",
+      "x": 52,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941",
+      "x": 60,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941",
+      "x": 56,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941",
+      "x": 56,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941",
+      "x": 60,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "bry_1774982763003",
+      "x": 118,
+      "y": 97,
+      "z": -50,
+      "sprite": {
+        "w": 5,
+        "h": 8,
+        "url": "./assets/characters/bry.png"
+      },
+      "collision": {
+        "w": 5,
+        "h": 8,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 2,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Привет, путник!",
+            "Княжество, как видишь, еще только начинает строиться",
+            "Однако, мы всегда рады гостям",
+            "Будет время - заходи в таверну  - налево, направо, налево"
+          ],
+          "npc_name": "Holly Briar"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "old_stone_house_1774982957591",
+      "x": 91,
+      "y": 4,
+      "z": -65,
+      "sprite": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 20,
+        "h": 19,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 2,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Рядом с этим домом вы начинаете чувстовать свой скелет...",
+            "Похоже, это проделки скелетов."
+          ],
+          "npc_name": "Evil`s house"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "grass_1774714122757_copy_1774714159381_copy_1774714334914_copy_1774982979781",
+      "x": 96,
+      "y": 14,
+      "z": -80,
+      "sprite": {
+        "w": 8,
+        "h": 8,
+        "url": "./assets/enviroment/grass.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "old_stone_house_1774982957591_copy_1774982995484",
+      "x": 105,
+      "y": 16,
+      "z": -60,
+      "sprite": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 20,
+        "h": 19,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "old_stone_house_1774982957591_copy_1774983001312",
+      "x": 75,
+      "y": 22,
+      "z": 0,
+      "sprite": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 20,
+        "h": 19,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": []
+    },
+    {
+      "id": "old_stone_house_1774982957591_copy_1774983006833",
+      "x": 105,
+      "y": 44,
+      "z": -50,
+      "sprite": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 20,
+        "h": 19,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [
+        {
+          "type": "active",
+          "radius": 20,
+          "action": "can_interact",
+          "priority": 2,
+          "dialogue": [
+            "Это поселение дизайнеров-художников",
+            "Повсюду картины, наброски, концепты...",
+            "Некоторые уже занончены, некоторые толко начаты.",
+            "Похоже, жизнь тут бьет ключом"
+          ],
+          "npc_name": "Гильдия художников"
+        }
+      ],
+      "color": "#ff00ff"
+    },
+    {
+      "id": "old_stone_house_1774982957591_copy_1774983013809",
+      "x": 84,
+      "y": 49,
+      "z": 10,
+      "sprite": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprie": {
+        "w": 20,
+        "h": 19,
+        "url": "./assets/bildings/old_stone_house.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983063909",
+      "x": 84,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983063909",
+      "x": 84,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983063909",
+      "x": 80,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983063909",
+      "x": 80,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983063909",
+      "x": 76,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983063909",
+      "x": 76,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983063909",
+      "x": 72,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983063909",
+      "x": 72,
+      "y": 52,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983071565",
+      "x": 100,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982454941_copy_1774983071565",
+      "x": 96,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983071565",
+      "x": 92,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774982450855_copy_1774983071565",
+      "x": 88,
+      "y": 48,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630",
+      "x": 100,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630",
+      "x": 100,
+      "y": 28,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630",
+      "x": 96,
+      "y": 28,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630",
+      "x": 96,
+      "y": 32,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979_copy_1774983114630",
+      "x": 96,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979_copy_1774983114630",
+      "x": 100,
+      "y": 36,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979_copy_1774983114630",
+      "x": 100,
+      "y": 40,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982438979_copy_1774983114630",
+      "x": 96,
+      "y": 40,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715203967_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957_copy_1774983114630",
+      "x": 96,
+      "y": 44,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715191022_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982432957_copy_1774983114630",
+      "x": 100,
+      "y": 44,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630_copy_1774983129008",
+      "x": 100,
+      "y": 25,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630_copy_1774983129008",
+      "x": 96,
+      "y": 25,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715189523_copy_1774715225329_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630_copy_1774983129008_copy_1774983151900",
+      "x": 96,
+      "y": 21,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    },
+    {
+      "id": "pebble_1774715077500_copy_1774715231911_copy_1774981141348_copy_1774981159953_copy_1774982345645_copy_1774982360885_copy_1774982408311_copy_1774982438979_copy_1774983114630_copy_1774983129008_copy_1774983151900",
+      "x": 100,
+      "y": 21,
+      "z": -70,
+      "sprite": {
+        "w": 4,
+        "h": 4,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "collision": {
+        "w": 0,
+        "h": 0,
+        "ox": 0,
+        "oy": 0
+      },
+      "effects": [],
+      "sprit=e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      },
+      "sprit==e": {
+        "w": 2,
+        "h": 2,
+        "url": "./assets/enviroment/pebble.png"
+      }
+    }
+  ]
+}

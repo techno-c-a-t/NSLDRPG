@@ -1,6 +1,12 @@
 [
+    "../assets/enviroment/pebble.png",
+    "../assets/enviroment/grass.png",
+    "../assets/enviroment/pot.png",
     "../assets/bildings/old_stone_house.png",
+    "../assets/characters/bry_stands.png",
     "../assets/characters/isaac.png",
     "../assets/characters/aligned_frisk.png",
-    "../assets/characters/Frisk.png"
+    "../assets/characters/Frisk.png",
+    "../assets/characters/bry.png",
+    "../assets/characters/bry2.png"
 ]

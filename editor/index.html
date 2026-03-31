@@ -79,6 +79,11 @@
             <div id="editor-panel" style="display: none;">
                 <button id="btn-max-json" style="margin-bottom:10px; background:#FF9800; color:#000;">Максимальный
                     JSON</button>
+                <button id="btn-merge" style="margin-bottom:10px; background:#9C27B0; display:none;">Слить</button>
+                <div id="group-actions" style="display:none; gap:5px; margin-bottom:10px;">
+                    <button id="btn-col-off" style="margin:0; background:#d32f2f;">Коллизия: ВЫКЛ</button>
+                    <button id="btn-col-on" style="margin:0; background:#4CAF50;">Коллизия: ВКЛ</button>
+                </div>
                 <textarea id="json-editor" spellcheck="false"></textarea>
                 <p id="json-error" style="color: red; display: none; margin-top: 5px;">Ошибка JSON</p>
                 <button id="btn-delete-obj" style="margin-top:10px; background:#d32f2f;">Удалить объект</button>
@@ -112,7 +117,14 @@
             <p><strong>Редактирование объектов:</strong><br>
                 - Кликните на объект на поле, чтобы выбрать его. Панель справа/снизу покажет его свойства.<br>
                 - Изменяйте JSON - изменения сразу отобразятся на карте.<br>
-                - Кнопка "Удалить объект" удалит его с карты.
+                - Если кликнуть по пустому месту, то можно редактировать JSON всей комнаты целиком!<br>
+                <b>Горячие клавиши:</b><br>
+                • <code>Delete / Backspace</code>: Удалить объект.<br>
+                • <code>Стрелки</code>: Перемещение объекта.<br>
+                • <code>+ / -</code>: Увеличить/Уменьшить размер.<br>
+                • <code>Ctrl+C, Ctrl+V, Ctrl+X</code>: Копировать/Вставить/Вырезать.<br>
+                • <code>Ctrl+Z / Ctrl+Shift+Z</code>: Отменить/Повторить изменения.<br>
+                • <code>Esc</code>: Снять выделение / Выйти из Тест-режима.
             </p>
             <p><strong>Испытание (Тест):</strong><br>
                 - Нажмите "Испытать" чтобы "войти" в комнату в роли игрока. <br>
@@ -130,7 +142,7 @@
                 размеры <code>w</code> и <code>h</code> задаются в чанках.<br>
                 • <code>collision</code>: Словарь с коллайдером. Включает <code>w</code>, <code>h</code> (ширина/высота)
                 и смещение от верхнего левого угла <code>ox</code>, <code>oy</code>. Если коллайдер меньше спрайта —
-                получится проходимая зона за / перед объектом!<br>
+                получится проходимая зона за / перед объектом! <b>Внимание: если <code>w: 0</code> или <code>h: 0</code>, коллайдер полностью отключен</b>.<br>
                 • <code>effects</code>: Массив эффектов/триггеров. <br>
                 - <code>type</code>: "active" или "passive"<br>
                 - <code>radius</code>: Зона срабатывания (в чанках)<br>

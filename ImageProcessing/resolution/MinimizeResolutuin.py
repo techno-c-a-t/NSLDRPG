@@ -291,5 +291,5 @@ def process_spritesheet(input_path, output_path, rows, cols,
 
 # Пример 1: Автоматически найти масштаб и подогнать под размер чанка 32x32
 # process_spritesheet("input.png", "out1.png", rows=4, cols=4, forced_w=32, forced_h=32, pixel_scale=8, align='bottom')
-process_spritesheet("ImageProcessing/resolution/input.png", "ImageProcessing/resolution/restored.png", rows=1, cols=4, align='top')
+process_spritesheet("ImageProcessing/resolution/pot.png", "ImageProcessing/resolution/restored.png", rows=1, cols=1, align='top')
 

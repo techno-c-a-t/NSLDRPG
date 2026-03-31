@@ -149,7 +149,7 @@ export class Player {
         // ДЕБАГ ЛОГ (только при смене кадра)
         const currentFrameId = `Row:${this.frameY}, Col:${this.frameX}`;
         if (currentFrameId !== this.lastFrameId) {
-            console.log(`%c Sprite Change: ${currentFrameId} `, 'background: #222; color: #bada55');
+            // console.log(`%c Sprite Change: ${currentFrameId} `, 'background: #222; color: #bada55');
             this.lastFrameId = currentFrameId;
         }
     }
@@ -211,8 +211,8 @@ export class Player {
     }
 
     canMoveTo(nx, ny, world) {
-        if (nx < 0 || nx > CONFIG.WORLD_SIZE - CONFIG.PLAYER_W ||
-            ny < 0 || ny > CONFIG.WORLD_SIZE - CONFIG.PLAYER_H) return false;
+        if (nx < 0 || nx > CONFIG.WORLD_WIDTH - CONFIG.PLAYER_W ||
+            ny < 0 || ny > CONFIG.WORLD_HEIGHT - CONFIG.PLAYER_H) return false;
         return !world.checkCollision(
             nx + CONFIG.P_COLL_OX,
             ny + CONFIG.P_COLL_OY,

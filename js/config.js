@@ -21,8 +21,9 @@ export const CONFIG_ISAAC
 
 export const CONFIG = {
     CHUNK: 8,
-    WORLD_SIZE: 256, // 256 * 8 = 2048px
-    VIEW_SIZE: 256, //px
+    WORLD_HEIGHT: 128, // 256 * 8 = 2048px
+    WORLD_WIDTH: 128,
+    VIEW_SIZE: 256, // абстрактное число
     PLAYER_W: 5, // в чанках
     PLAYER_H: 8,  // в чанках
     MOVE_SPEED: 0.3,
@@ -34,7 +35,10 @@ export const CONFIG = {
     P_COLL_OX: 0, // Без смещения по X вправо
     P_COLL_OY: 4,  // Смещение на 6 чанков вниз (8 - 2 = 6)
     DEBUG: 0,
-    START_X: 60,
-    START_Y: 60,
-    SPRITE_PATH: "assets/characters/aligned_frisk.png"
+    START_X: 110,
+    START_Y: 100,
+    SPRITE_PATH: "assets/characters/aligned_frisk.png",
+    // DATA_PATH: './data/objects.json'
+    DATA_PATH: './data/test_map.json'
+
 };

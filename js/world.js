@@ -7,7 +7,7 @@ export class World {
     }
 
     async loadObjects() {
-        const res = await fetch('./data/objects.json');
+        const res = await fetch(CONFIG.DATA_PATH);
         const data = await res.json();
         this.objects = data.objects;
 
@@ -74,6 +74,9 @@ export class World {
 
     checkCollision(px, py, pw, ph) {
         return this.objects.some(o => {
+            if (o.collision.w === 0 || o.collision.h === 0) {
+                return 0;
+            }
             // Координаты коллайдера объекта со смещением
             const ocx = o.x + o.collision.ox;
             const ocy = o.y + o.collision.oy;
@@ -94,6 +97,9 @@ export class World {
         });
 
         visibleObjects.forEach(o => {
+            if (o.x >= CONFIG.WORLD_WIDTH || o.y >= CONFIG.WORLD_HEIGHT) {
+                return;
+            }
             ctx.globalAlpha = 1.0;
             // Проверка Highlight
             if (CONFIG.DEBUG == 1) {
@@ -106,16 +112,35 @@ export class World {
                 ctx.globalAlpha = isHigh ? 1.0 : 0.7;
             }
             const img = this.assets.get(o.sprite.url);
-            console.log("Drawing...");
+            let max_render_x = o.x + o.sprite.w;
+            let max_render_y = o.y + o.sprite.h;
+
+            // 1. Проверяем, не выходит ли ПРАВЫЙ край за границу
             if (img) {
-                ctx.drawImage(img, o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, o.sprite.w * CONFIG.CHUNK, o.sprite.h * CONFIG.CHUNK);
+                if (max_render_x > CONFIG.WORLD_WIDTH || max_render_y > CONFIG.WORLD_HEIGHT) {
+                    console.log ("rendering out of bounds..." + o.sprite.url + "render params: ");
+                    max_render_x = Math.round(Math.min(CONFIG.WORLD_WIDTH, max_render_x)); // Урезаем ширину отрисовки до границы
+                    max_render_y = Math.round(Math.min(CONFIG.WORLD_HEIGHT, max_render_y)); // Урезаем ширину отрисовки до границы
+                    const dx = (max_render_x - o.x) * CONFIG.CHUNK;
+                    const dy = (max_render_y - o.y) * CONFIG.CHUNK;
+                    console.log( [img,
+                        0, 0, dx, dy,
+                        dx, dy, max_render_x * CONFIG.CHUNK, max_render_y * CONFIG.CHUNK ]);
+                    ctx.drawImage(
+                        img,
+                        0, 0, dx, dy, // Берем только кусок из исходника
+                        o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, dx , dy// Рисуем только до границы
+                    );
+                } else {
+                    ctx.drawImage(img, o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, o.sprite.w * CONFIG.CHUNK, o.sprite.h * CONFIG.CHUNK);
+                }
             } else {
-                if  (o.color === undefined) {
-                ctx.fillStyle = o.color || "magenta";
-                ctx.fillRect(o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, o.sprite.w * CONFIG.CHUNK, o.sprite.h * CONFIG.CHUNK);
+                if (o.color !== undefined) {
+                    ctx.fillStyle = o.color || "magenta";
+                    ctx.fillRect(o.x * CONFIG.CHUNK, o.y * CONFIG.CHUNK, o.sprite.w * CONFIG.CHUNK, o.sprite.h * CONFIG.CHUNK);
                 }
             }
-            console.log("End");
+            // console.log("End");
             ctx.globalAlpha = 1.0;
         });
     }
@@ -126,10 +151,10 @@ export class World {
         for (let x = Math.floor(px - range); x < px + range; x++) {
             for (let y = Math.floor(py - range); y < py + range; y++) {
                 if (x < 0 || x >= CONFIG.WORLD_SIZE || y < 0 || y >= CONFIG.WORLD_SIZE) continue;
-                if ((x + y) % 2 === 0) {
-                    ctx.fillStyle = '#0d0d0d';
-                    ctx.fillRect(x * CONFIG.CHUNK, y * CONFIG.CHUNK, CONFIG.CHUNK, CONFIG.CHUNK);
-                }
+                // if ((x + y) % 2 === 0) {
+                //     ctx.fillStyle = '#0d0d0d';
+                //     ctx.fillRect(x * CONFIG.CHUNK, y * CONFIG.CHUNK, CONFIG.CHUNK, CONFIG.CHUNK);
+                // }
                 if (CONFIG.DEBUG == 1) {
                     // Здесь же можно рисовать цветовые зоны эффектов (красный/зеленый)
                     const effs = this.getAllEffectsAt(x, y);

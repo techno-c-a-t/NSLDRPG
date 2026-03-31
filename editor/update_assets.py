@@ -1,8 +1,8 @@
 import os
 import json
 
-ASSETS_DIR = '../assets'
-OUTPUT_FILE = 'assets.json'
+ASSETS_DIR = 'assets'
+OUTPUT_FILE = 'editor/assets.json'
 
 def main():
     assets = []
@@ -10,7 +10,8 @@ def main():
         for root, dirs, files in os.walk(ASSETS_DIR):
             for f in files:
                 if f.lower().endswith('.png'):
-                    path = os.path.join(root, f)
+                    path ="../"
+                    path = path + os.path.join(root, f)
                     # Convert to forward slashes
                     path = path.replace('\\', '/')
                     assets.append(path)
